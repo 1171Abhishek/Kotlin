@@ -1,3 +1,5 @@
+package `01_Variable`
+
 fun main(){
     // Declaring a variable 
     // var -- mutable 
