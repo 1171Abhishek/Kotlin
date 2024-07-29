@@ -24,7 +24,7 @@ fun main(){
     println(friendName)
 
     // accessing constant
-    println(CONST_NAME) 
+    println(CONST_NAME ) 
 
 
 }
