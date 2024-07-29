@@ -1,12 +1,15 @@
-package topic_01
+package topic_01_variable
 
 fun main(){
     // Declaring a variable
     // var -- mutable
     // val -- read only variable(Immutable) but not entirely
     // const -- is used for variables (with val) that are known at compile-time.
+    // camelCase for variable naming (val and var)
+    // capital letter and underscore for constant
 
     // Both val and var keywords provide you a variable!
+    // use val as default for better practise.
 
     val language = "Kotlin"
     println(language)
@@ -36,8 +39,10 @@ fun main(){
     println(age)
 
 
-
-
+    // declare variable first and then initialize value
+    val name: String
+    name = "Abhishek"
+    println(name)
 }
 
 /*
