@@ -1,8 +1,8 @@
-package `01_Variable`
+package topic_01
 
 fun main(){
-    // Declaring a variable 
-    // var -- mutable 
+    // Declaring a variable
+    // var -- mutable
     // val -- read only variable(Immutable) but not entirely
     // const -- is used for variables (with val) that are known at compile-time.
 
@@ -18,7 +18,7 @@ fun main(){
     println(dayOfWeek)
 
 
-    // Storing different types of values 
+    // Storing different types of values
     val ten = 10
     val greeting = "Hello"
     var firstLetter = 'A'
@@ -28,21 +28,21 @@ fun main(){
     println(firstLetter)
 
 
-    // required same type as the initial 
+    // required same type as the initial
     var age = 18
     println(age)
 
-    // age = "ten" // error 
+    // age = "ten" // error
     println(age)
 
 
 
-    
+
 }
 
 /*
 What is a variable?
-A variable is a storage for a value, which can be a string, a number, or something else. 
+A variable is a storage for a value, which can be a string, a number, or something else.
 Every variable has a name (or an identifier) to distinguish it from other variables.
-You can access a value by the name of the variable. 
+You can access a value by the name of the variable.
 */
