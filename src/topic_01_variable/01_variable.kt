@@ -11,6 +11,8 @@ fun main(){
     // Both val and var keywords provide you a variable!
     // use val as default for better practise.
 
+//    val/var identifier = initialization
+
     val language = "Kotlin"
     println(language)
 
