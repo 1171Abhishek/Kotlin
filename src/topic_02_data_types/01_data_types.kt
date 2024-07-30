@@ -30,5 +30,6 @@ fun main() {
     val greet: String
     greet = "Good morning"
     println(greet)
+    println(greet)
 
 }
