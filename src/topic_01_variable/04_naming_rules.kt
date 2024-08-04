@@ -17,6 +17,5 @@ fun main() {
 
     val myNameIs = "Abhishek"  // camelCase
     println(myNameIs)
-
     println(WEEK_DAYS)
 }

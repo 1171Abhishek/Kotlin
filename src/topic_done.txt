@@ -1,0 +1,10 @@
+constant and variables
+data types
+comments
+kotlin style guide
+naming variable
+standard output
+invoking functions
+standard input from java
+strings basics
+strings template
