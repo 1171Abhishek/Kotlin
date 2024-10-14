@@ -1,6 +1,6 @@
 package topic_01_variable
 
-fun main(){
+fun main() {
     // Declaring a variable
     // var -- mutable
     // val -- read only variable(Immutable) but not entirely
@@ -45,6 +45,15 @@ fun main(){
     val name: String
     name = "Abhishek"
     println(name)
+
+    // change internal state of val
+    val charList = mutableListOf('A', 'B', 'C', 'D')
+    println(charList)
+//    charList =   mutableListOf('A','B','C','D','E','F') // Resign is not allowed
+    charList.add('E') // Changed the internal state here
+    println(
+        charList
+    )
 }
 
 /*
