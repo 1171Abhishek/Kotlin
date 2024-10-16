@@ -23,8 +23,8 @@ class ClassNumberOne{
 fun main() {
 //    Creating Object of class
     val objectOne = ClassNumberOne()
-    objectOne.methodOne()
-    println(objectOne.className)
+    objectOne.methodOne() // access class method
+    println(objectOne.className) // access class property
 
 }
 
