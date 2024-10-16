@@ -30,11 +30,4 @@ fun main() {
     println(rank)
     rank = null
     println(rank?.length?:1) // ?: 1: Elvis operator; provides 1 if the result is null.
-
-
-
-
-
-
-
 }
