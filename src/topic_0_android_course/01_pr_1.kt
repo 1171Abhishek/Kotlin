@@ -1,10 +1,23 @@
 package topic_0_android_course
 
-fun main() {
-    areaAndPerimeterCalculator(10.0, 20.0)
+// This is Rough part for my practise
+
+class Practise1 {
+    // class property
+    val name: String = "Abhishek kumar"
+
+    //    class method
+    fun printName() {
+        println("Hello this is function 1")
+    }
 }
 
-fun areaAndPerimeterCalculator(num1: Double, num2: Double) {
-    println("Area of Rectangle: ${num1 * num2}")
-    println("Perimeter of Rectangle: ${2 * (num1 + num2)}")
+fun main() {
+//    object created
+    val obj1 = Practise1()
+
+    println(obj1.name) // property access
+    obj1.printName() // access method of class
+
+
 }
