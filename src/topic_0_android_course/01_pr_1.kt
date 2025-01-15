@@ -12,12 +12,16 @@ class Practise1 {
     }
 }
 
+
 fun main() {
 //    object created
     val obj1 = Practise1()
 
     println(obj1.name) // property access
     obj1.printName() // access method of class
+}
 
 
+fun addTwoNumbersWithGemini(a: Int, b: Int): Int {
+    return a + b
 }
