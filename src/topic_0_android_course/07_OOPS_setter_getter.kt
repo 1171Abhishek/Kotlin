@@ -1,17 +1,13 @@
 package topic_0_android_course
 
-class SetterGetterClassLearn{
-    var name: String = ""
-        get() = field.uppercase()
-
-        set(value) {
-            field = value.trim()
-        }
+class SetterAndGetterClass{
+    val name = "Setter and Getter Class"
 }
 
-fun main() {
-    val obj2 = SetterGetterClassLearn()
-    obj2.name = "             Abhishek"
-    println(obj2.name)
+fun main(){
+    println("Setter and Getter")
+    val obj1 = SetterAndGetterClass()
+    println(obj1.name)
+    
 }
 
