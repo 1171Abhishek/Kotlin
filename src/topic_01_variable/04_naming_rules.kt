@@ -5,7 +5,7 @@ package topic_01_variable
  * name only contain letters , underscore and digits
  * name cannot start with digit
  * name cannot be a keyword
- * wide space are not allowed, but we can use `` to contain wide space
+ * wide space are not allowed, but we can use `backtick` to contain wide space
  * use camelCase for variable naming
  * for constant use snake_case and all letters should be upper case only
  */
