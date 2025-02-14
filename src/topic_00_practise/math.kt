@@ -4,7 +4,7 @@ import kotlin.math.pow
 fun main() {
     // do not change this code
     val number = readln().toDouble()
-
+ 
     // write your code below
     val sampleInput1 = Math.sqrt(number)
     println(sampleInput1)
