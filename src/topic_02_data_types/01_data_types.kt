@@ -32,4 +32,11 @@ fun main() {
     println(greet)
     println(greet)
 
+    val number12 = 1_000_000   // This is valid
+    println(number12)
+
+
+    val age: Int
+//    age = "Abhishek"   // Type mismatch
+
 }
