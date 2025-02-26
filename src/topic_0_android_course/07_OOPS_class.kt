@@ -1,10 +1,14 @@
 package topic_0_android_course
 
 /** A class consists of three major parts:
- * Properties. Variables that specify the attributes of the class's objects.
- * Methods. Functions that contain the class's behaviors and actions.
- * Constructors. A special member function that creates instances of the class throughout the program in which it's defined.
- * For naming use PasCal Case
+ *
+ * Properties.A variable inside a class that holds data and can have custom getters and setters.
+ *
+ * Methods. A function inside a class that performs a specific action.
+ *
+ * Constructors. Initializes an object when a class is instantiated.
+                    Primary Constructor: Declared in the class header.
+                    Secondary Constructor: Defined inside the class using constructor
  */
 
 class ClassNumberOne{
